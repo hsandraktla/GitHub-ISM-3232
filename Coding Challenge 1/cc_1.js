@@ -2,7 +2,7 @@
 // Declare a variable employeeName using let and assign it the employee's name as a string.
 let employeeName = "Zachary Keenan";
 // Declare a variable employeeID using const and assign it the employee's ID as a number.
-const employeeID = 081303;
+const employeeID = 81303;
 // Declare a variable isActive using var and assign it a boolean value true to indicate the employee is currently active.
 var isActive = true;
 // Log each variable's value and its type to the console using console.log() and typeof.
@@ -44,3 +44,14 @@ let customerName = "Rosella Ktla";
 // Concatenate strings to form a welcome message and log it to the console.
 let welcomeMessage = "Welcome " + customerName + "! " + "We are thrilled to have you on board.";
 console.log(welcomeMessage);
+
+
+//Task 5: Access Control
+// Declare a variable isLoggedIn using let and assign it a boolean value indicating user login status.
+let isLoggedIn = true;
+// Use logical operations to check access conditions and log resutls to the console.
+if(!isLoggedIn){
+    console.log("Access Denied! Please try again.");
+} else {
+    console.log("Access Granted! Welcome back!");
+}
