@@ -22,3 +22,17 @@ var isAvailable = false;
 console.log("Product Name:", productName, "-", typeof productName);
 console.log("Product Price:", productPrice, "-", typeof productPrice);
 console.log("Product Availability;", isAvailable, "-", typeof isAvailable);
+
+
+//Task 3: Financial Transactions
+// Declare a variable accountBalance using let and assign it a number representing the initial balance.
+let accountBalance = 5725;
+// Perform a basic arithmetic operations and log the updated values.
+accountBalance +=3589; //Deposit
+console.log("Account Balance after Deposit:", accountBalance);
+accountBalance -=1250; //Withdrawal
+console.log("Account Balance after Withrawal:", accountBalance);
+accountBalance *=1.5; //Interest
+console.log("Account Balance after Interest:", accountBalance);
+accountBalance /=2; //Slpit in half
+console.log("Account Balance in Half:", accountBalance);
