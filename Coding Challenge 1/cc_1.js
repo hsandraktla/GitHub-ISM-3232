@@ -36,3 +36,11 @@ accountBalance *=1.5; //Interest
 console.log("Account Balance after Interest:", accountBalance);
 accountBalance /=2; //Slpit in half
 console.log("Account Balance in Half:", accountBalance);
+
+
+//Task 4: Customer Messaging
+// Declare a variable customerName using let and assign it a string value representing the customer's name.
+let customerName = "Rosella Ktla";
+// Concatenate strings to form a welcome message and log it to the console.
+let welcomeMessage = "Welcome " + customerName + "! " + "We are thrilled to have you on board.";
+console.log(welcomeMessage);
