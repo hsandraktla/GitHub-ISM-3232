@@ -7,3 +7,18 @@ products.unshift("Skirt");
 products.pop();
 //Log the updated product list to the console.
 console.log("Updated Product List: ", products);
+
+
+//Task 2: Student Scores
+//Delare an array scores with at least five numerical values.
+let scores = [85, 90, 100, 75, 80];
+//Update the second score in the array.
+scores[1] = 95;
+//Calculate the average of all scores.
+let totalScores = scores.reduce((sum, scores) => sum + scores, 0);
+let averageScores = totalScores / scores.length;
+//Log the updated array and the average score to the console.
+console.log("Updated Scores: ", scores);
+console.log("Average Scores: ", averageScores);
+
+
