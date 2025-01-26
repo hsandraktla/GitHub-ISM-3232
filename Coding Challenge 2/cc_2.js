@@ -22,3 +22,18 @@ console.log("Updated Scores: ", scores);
 console.log("Average Scores: ", averageScores);
 
 
+//Task 3: Employee Records
+//Declare an object employee with properties: name, age, department, and isActive.
+let employee = {
+    name: "Zachary Keenan",
+    age: 21,
+    department: "Finance",
+    isActive: true,
+};
+//Update the department property.
+employee.department = "Marketing";
+//Add a new property position to the object.
+employee.position = "Intern";
+//Log the updated object to the console.
+console.log("Updated Employee Record: ", employee);
+
