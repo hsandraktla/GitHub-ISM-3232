@@ -37,3 +37,17 @@ employee.position = "Intern";
 //Log the updated object to the console.
 console.log("Updated Employee Record: ", employee);
 
+
+//Task 4: Customer Database
+//Decalre an array customers with at least three objects, each with name, email, and purchaseAmountproperties.
+let customers = [
+    {name: "Brianna Smith", email: "Briannasmith@gmail.com", purchaseAmount: 175},
+    {name: "Lauren Hala", email: "Laurenhala@icloud.com", purchaseAmount: 119},
+    {name: "Liam Rayne", email: "Liamrayne02@gmail.com", purchaseAmount: 156}
+]
+//Add a new customer to the array.
+customers.push({name: "Renee Sikk", email: "Reneesikk@gmail.com", purchaseAmount: 254});
+//Log the entire customer list to the console.
+console.log("Customer List: ", customers);
+
+
